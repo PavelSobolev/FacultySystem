@@ -1,0 +1,690 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{42C4DCE7-B858-4B18-8DD2-3016C423CAA8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Факультет</RootNamespace>
+    <AssemblyName>Факультет</AssemblyName>
+    <StartupObject>Факультет.Program</StartupObject>
+    <ApplicationIcon>Recent_Doc%27s_Alt-3.ico</ApplicationIcon>
+    <ManifestCertificateThumbprint>3A302D39285743187B0C4FCB102914C48C34D6DE</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Факультет_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>http://localhost/Факультет/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>10</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Факультет.XML</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.Common, Version=1.0.20031.116, Culture=neutral, PublicKeyToken=e272bb32d11b1948">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\C1.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid, Version=2.1.20031.104, Culture=neutral, PublicKeyToken=c9c7ad9c0a5706c9">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\C1.Win.C1FlexGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid.Classic, Version=2.1.20031.104, Culture=neutral, PublicKeyToken=c9c7ad9c0a5706c9">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\C1.Win.C1FlexGrid.Classic.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Input, Version=1.0.20031.0, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\C1.Win.C1Input.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v9.1.Core, Version=9.1.4.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v9.1.UI, Version=9.1.4.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\DevExpress 2009.1\\Components\Sources\DevExpress.DLL\DevExpress.XtraCharts.v9.1.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2009.1\\Components\Sources\DevExpress.DLL\DevExpress.XtraScheduler.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="GemBox.Spreadsheet, Version=33.1.0.1000, Culture=neutral, PublicKeyToken=b1b72c69714d4847, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\GemBox.Spreadsheet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="choose_merge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="choose_merge.Designer.cs">
+      <DependentUpon>choose_merge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="city_street_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="city_street_edit.Designer.cs">
+      <DependentUpon>city_street_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="data.cs" />
+    <Compile Include="document_vedomost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="document_vedomost.designer.cs">
+      <DependentUpon>document_vedomost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edit_session_predmet_restotre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edit_session_predmet_restotre.Designer.cs">
+      <DependentUpon>edit_session_predmet_restotre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="enter_as_dekan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enter_as_dekan.Designer.cs">
+      <DependentUpon>enter_as_dekan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="enter_fakultet_and_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enter_fakultet_and_user.Designer.cs">
+      <DependentUpon>enter_fakultet_and_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="enter_server.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enter_server.Designer.cs">
+      <DependentUpon>enter_server.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grupa_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grupa_edit.Designer.cs">
+      <DependentUpon>grupa_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inputbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inputbox.Designer.cs">
+      <DependentUpon>inputbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inputTextBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inputTextBox.Designer.cs">
+      <DependentUpon>inputTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kursrab_archiv_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kursrab_archiv_edit.Designer.cs">
+      <DependentUpon>kursrab_archiv_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListWindow.Designer.cs">
+      <DependentUpon>ListWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="messagebox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="messagebox.Designer.cs">
+      <DependentUpon>messagebox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pass_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pass_edit.Designer.cs">
+      <DependentUpon>pass_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="predmet_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="predmet_edit.Designer.cs">
+      <DependentUpon>predmet_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="prepod_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prepod_edit.Designer.cs">
+      <DependentUpon>prepod_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="choose_merge.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>choose_merge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="city_street_edit.resx">
+      <DependentUpon>city_street_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="document_vedomost.resx">
+      <DependentUpon>document_vedomost.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edit_session_predmet_restotre.resx">
+      <DependentUpon>edit_session_predmet_restotre.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enter_as_dekan.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>enter_as_dekan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enter_fakultet_and_user.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>enter_fakultet_and_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enter_server.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>enter_server.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grupa_edit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>grupa_edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inputbox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>inputbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inputTextBox.resx">
+      <DependentUpon>inputTextBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kursrab_archiv_edit.resx">
+      <DependentUpon>kursrab_archiv_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListWindow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ListWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="messagebox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>messagebox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pass_edit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pass_edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="predmet_edit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>predmet_edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prepod_edit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>prepod_edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="publication_obiavl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>publication_obiavl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rasp_nastroika.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>rasp_nastroika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="set_attend_dialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>set_attend_dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="set_tema_dialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>set_tema_dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="set_tema_from_indrasp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>set_tema_from_indrasp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sprav_city.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>sprav_city.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sprav_grupa.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>sprav_grupa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sprav_kurs_rabota.resx">
+      <DependentUpon>sprav_kurs_rabota.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sprav_ob.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>sprav_ob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sprav_perevod_student.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>sprav_perevod_student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sprav_predmets.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>sprav_predmets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sprav_prepods.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>sprav_prepods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sprav_student.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>sprav_student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student_edit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>student_edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student_edit_address.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>student_edit_address.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student_edit_born_place.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>student_edit_born_place.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student_edit_passport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>student_edit_passport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tabel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>tabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="table_context.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>table_context.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tema_add.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>tema_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tema_edit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>tema_edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vkr_diplom.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>vkr_diplom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vkr_diplom_plan.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>vkr_diplom_plan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wait.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>wait.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="publication_obiavl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="publication_obiavl.Designer.cs">
+      <DependentUpon>publication_obiavl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rasp_nastroika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rasp_nastroika.Designer.cs">
+      <DependentUpon>rasp_nastroika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="set_attend_dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="set_attend_dialog.Designer.cs">
+      <DependentUpon>set_attend_dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="set_tema_dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="set_tema_dialog.Designer.cs">
+      <DependentUpon>set_tema_dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="set_tema_from_indrasp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="set_tema_from_indrasp.Designer.cs">
+      <DependentUpon>set_tema_from_indrasp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sprav_city.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sprav_city.Designer.cs">
+      <DependentUpon>sprav_city.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sprav_grupa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sprav_grupa.Designer.cs">
+      <DependentUpon>sprav_grupa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sprav_kurs_rabota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sprav_kurs_rabota.Designer.cs">
+      <DependentUpon>sprav_kurs_rabota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sprav_ob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sprav_ob.Designer.cs">
+      <DependentUpon>sprav_ob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sprav_perevod_student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sprav_perevod_student.Designer.cs">
+      <DependentUpon>sprav_perevod_student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sprav_predmets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sprav_predmets.Designer.cs">
+      <DependentUpon>sprav_predmets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sprav_prepods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sprav_prepods.Designer.cs">
+      <DependentUpon>sprav_prepods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sprav_student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sprav_student.Designer.cs">
+      <DependentUpon>sprav_student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="student_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student_edit.Designer.cs">
+      <DependentUpon>student_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="student_edit_address.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student_edit_address.Designer.cs">
+      <DependentUpon>student_edit_address.cs</DependentUpon>
+    </Compile>
+    <Compile Include="student_edit_born_place.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student_edit_born_place.Designer.cs">
+      <DependentUpon>student_edit_born_place.cs</DependentUpon>
+    </Compile>
+    <Compile Include="student_edit_passport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student_edit_passport.Designer.cs">
+      <DependentUpon>student_edit_passport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tabel.Designer.cs">
+      <DependentUpon>tabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="table_context.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="table_context.Designer.cs">
+      <DependentUpon>table_context.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tema_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tema_add.Designer.cs">
+      <DependentUpon>tema_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tema_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tema_edit.Designer.cs">
+      <DependentUpon>tema_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vkr_diplom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vkr_diplom.Designer.cs">
+      <DependentUpon>vkr_diplom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vkr_diplom_plan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vkr_diplom_plan.Designer.cs">
+      <DependentUpon>vkr_diplom_plan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wait.Designer.cs">
+      <DependentUpon>wait.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pict\enter_fak_1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pict\enter_fak_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pict\enter_fak_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="APPTL.ICO" />
+    <Content Include="BOOK01B.ICO" />
+    <Content Include="books.ico" />
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Pict\delete_x16_h.png" />
+    <Content Include="e Book 2.ico" />
+    <None Include="fon4.png" />
+    <Content Include="i.ico" />
+    <Content Include="Naughty_Black_Book.ico" />
+    <None Include="Pict\info2.PNG" />
+    <None Include="Pict\ok.ico" />
+    <None Include="Pict\ARW07UP.ICO" />
+    <None Include="Pict\ARW07DN.ICO" />
+    <None Include="Pict\ARW11NW.ICO" />
+    <None Include="Pict\ARW11SE.ICO" />
+    <None Include="Pict\m_up.ico" />
+    <None Include="Pict\m_downcross.ico" />
+    <None Include="Pict\draw_freehand_24.png" />
+    <None Include="Pict\fon_бел_син_бледн.jpg" />
+    <None Include="Pict\tab_fon.JPG" />
+    <None Include="Pict\readebook.gif" />
+    <None Include="Pict\user_male24.png" />
+    <None Include="Pict\listview.gif" />
+    <None Include="Pict\filter.PNG" />
+    <None Include="Pict\attach.gif" />
+    <None Include="Pict\C_MoreTopics_Lg_N.gif" />
+    <None Include="Pict\edit.ico" />
+    <None Include="Pict\fon_green_small.jpg" />
+    <None Include="Pict\smallfail.gif" />
+    <None Include="Pict\smallsuccess.gif" />
+    <None Include="Pict\arrowleft_green16_h.png" />
+    <None Include="Pict\arrowright_green16_h.png" />
+    <None Include="Pict\save_green16.png" />
+    <None Include="Pict\books1.ico" />
+    <None Include="Pict\препод.PNG" />
+    <None Include="Pict\UNDERCON.GIF" />
+    <None Include="Pict\1.gif" />
+    <None Include="Pict\ex.PNG" />
+    <None Include="Pict\newico\ico_MSACCESS0023.ico" />
+    <None Include="Pict\newico\ico_OleDbDest0001.ico" />
+    <None Include="Pict\newico\ico_OleDbSrc0001.ico" />
+    <None Include="Pict\newico\ico_TxTermLookup0001.ico" />
+    <None Include="Pict\fon_violet_small .jpg" />
+    <None Include="Pict\зф.png" />
+    <None Include="Pict\attach_comment.gif" />
+    <None Include="Properties\empty.png" />
+    <None Include="Pict\ok1.ico" />
+    <None Include="Pict\quest1.png" />
+    <None Include="Pict\1301141220_Plus__Orange.png" />
+    <None Include="Pict\1301141078_button_fewer.png" />
+    <None Include="Pict\1301141244_button_ok.png" />
+    <None Include="Pict\cancel.png" />
+    <None Include="Pict\application-vnd.ms-excel.png" />
+    <None Include="Pict\refresh_48.png" />
+    <Content Include="Recent_Doc%27s_Alt-3.ico" />
+    <None Include="Resources\properties_doc16.png" />
+    <None Include="Resources\db_register16_h.png" />
+    <None Include="Resources\paste_clipboard16.png" />
+    <None Include="Resources\CRDFLE07.ICO" />
+    <None Include="Resources\CLOCK05.ICO" />
+    <None Include="Resources\fo.gif" />
+    <None Include="Resources\bkmark.gif" />
+    <None Include="Resources\parent_coordinator_16.png" />
+    <None Include="Resources\help_24.png" />
+    <None Include="Resources\add_24.png" />
+    <None Include="Resources\delete_24.png" />
+    <None Include="Resources\user_ok_24.ico" />
+    <None Include="Resources\add_24.ico" />
+    <None Include="Resources\user_close_24.ico" />
+    <None Include="Resources\user_close_24.png" />
+    <None Include="Resources\user_ok_24.png" />
+    <None Include="Resources\небыл.png" />
+    <None Include="Resources\был.png" />
+    <None Include="Resources\неизв.png" />
+    <None Include="Resources\add_241.png" />
+    <None Include="Resources\application-vnd.ms-word.png" />
+    <None Include="Resources\sum v2-16x16x32b.png" />
+    <Content Include="table2.ico" />
+    <None Include="Pict\grandstuds.ico" />
+    <None Include="Pict\W95MBX01.ICO" />
+    <None Include="Pict\CHECKMRK.ICO" />
+    <None Include="Pict\fon_red_small.jpg" />
+    <None Include="Pict\fon_red.jpg" />
+    <None Include="Факультет_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

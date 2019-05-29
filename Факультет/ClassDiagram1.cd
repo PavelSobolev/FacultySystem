@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="FSystem.main">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="FSystem.main.direction">
+        <TypeIdentifier>
+          <NewMemberFileName>main.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="FSystem.main.видотметки_количество" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>main.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>9/938/2P+/xsvnf3/P+X//9z3//7/7/f97/v/+nv678=</HashCode>
+      <FileName>main.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="start_time" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FSystem.inputbox">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAICBACAAABAAAACAAgACAAAZAAAAEEAAAAAAAAA=</HashCode>
+      <FileName>inputbox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FSystem.messagebox">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAEACQAIAAEAAKABIQSAAAAAIAJAAAIABAAAgE=</HashCode>
+      <FileName>messagebox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FSystem.wait">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAAKAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>wait.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FSystem.enter_as_dekan">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAACAACAAABAABACAAgACAAAYAAAAAGAAAAAAAAA=</HashCode>
+      <FileName>enter_as_dekan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FSystem.enter_fakultet_and_user">
+    <Position X="10" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>HBACAIAEUCAAADAAAAaAAAACAAA4kAAAAEAAAABAAEA=</HashCode>
+      <FileName>enter_fakultet_and_user.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FSystem.Data" Collapsed="true">
+    <Position X="1.25" Y="7.25" Width="3.5" />
+    <InheritanceLine Type="System.Object" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="7.143" />
+        <Point X="4.846" Y="7.143" />
+        <Point X="4.846" Y="7.096" />
+        <Point X="2.938" Y="7.096" />
+        <Point X="2.938" Y="7.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>IAAAAIAACAAAARAASABCAAACAACEAJgAAAAYAAggAAA=</HashCode>
+      <FileName>data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FSystem.Cell" Collapsed="true">
+    <Position X="8" Y="5.75" Width="1.5" />
+    <InheritanceLine Type="System.Object" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="6.814" />
+        <Point X="7.877" Y="6.814" />
+        <Point X="7.877" Y="5.787" />
+        <Point X="8" Y="5.787" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAwAAEIEQwBAAC0AGYAQAQACCYACQiEkSgAwAAIAAhI=</HashCode>
+      <FileName>data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object">
+    <Position X="5" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Struct Name="System.DateTime">
+    <Position X="6" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
