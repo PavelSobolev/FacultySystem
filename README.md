@@ -11,7 +11,7 @@ This software was created for Sakhalin Humanitarian and Technological Institute 
 #### Main window (a week schedule, list of studying groups, curriculum, etc.)
 ![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(3).png)
 
-#### Dialog box (merging of cells in schedule table request)
+#### Dialog box (merging of the cells in the schedule table)
 ![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(4).png)
 
 #### Dialog box (ordering of groups in the table)
