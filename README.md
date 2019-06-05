@@ -2,31 +2,31 @@
 This software was created for Sakhalin Humanitarian and Technological Institute (Russian Federation) and was in exploitation from 2006 till 2015.
 
 # User interface
-#### Login form
+#### Server login form
 ![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(1).png)
 
-#### Login form
+#### User's login form
 ![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(2).png)
 
-#### Login form
+#### Main window (a week schedule, list of studying groups, curriculum, etc.)
 ![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(3).png)
 
-#### Login form
+#### Dialog box (merging of cells in schedule table request)
 ![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(4).png)
 
-#### Login form
+#### Dialog box (ordering of groups in the table)
 ![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(5).png)
 
-#### Login form
+#### Context menu of the concrete item of the schedule (editing of attendance, editing of the lecture topic, etc.)
 ![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(6).png)
 
-#### Login form
+#### Form: pepsonal data editor
 ![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(7).png)
 
-#### Login form
+#### Form: personal password of the current user (setting/editing)
 ![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(8).png)
 
-#### Login form
+#### Form: lesson theme editor
 ![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(9).png)
 
 #### Login form
