@@ -1,7 +1,8 @@
 # FacultySystem
 This software was created for Yuzhno-Sakhalinsk Institute of economics, law and computer science (Russian Federation) and was in exploitation from 2006 till 2015.
 
-[Certificate](https://github.com/PavelSobolev/cv/blob/master/InfoSystem.png)
+[Certificate of State Registration](https://github.com/PavelSobolev/cv/blob/master/InfoSystem.png)
+[State Registration Of The Program For Computers (Of Federal Service For Intellectual Property Of Russian Federation)](http://www1.fips.ru/registers-doc-view/fips_servlet?DB=EVM&DocNumber=2015662401&TypeFile=html)
 
 ### Short description of the information system
 
