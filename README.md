@@ -3,7 +3,7 @@ This software was created for Yuzhno-Sakhalinsk Institute of economics, law and 
 
 [Certificate of State Registration](https://github.com/PavelSobolev/cv/blob/master/InfoSystem.png)
 
-[State Registration Of The Program For Computers (Of Federal Service For Intellectual Property Of Russian Federation)](http://www1.fips.ru/registers-doc-view/fips_servlet?DB=EVM&DocNumber=2015662401&TypeFile=html)
+[State Registration Of The Program For Computers (Of State Federal Service For Intellectual Property Of Russian Federation) (in Russlian - can be translated by built-in features of a used browser)](http://www1.fips.ru/registers-doc-view/fips_servlet?DB=EVM&DocNumber=2015662401&TypeFile=html)
 
 ### Short description of the information system
 
