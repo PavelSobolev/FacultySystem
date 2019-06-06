@@ -1,7 +1,7 @@
 # FacultySystem
 This software was created for Sakhalin Humanitarian and Technological Institute (Russian Federation) and was in exploitation from 2006 till 2015.
 
-# User interface
+# Examples of the most important windows and dialog boxes
 #### Server login form
 ![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(1).png)
 
@@ -83,9 +83,6 @@ This software was created for Sakhalin Humanitarian and Technological Institute 
 #### An institute department's employees
 ![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(29).png)
 
-#### Dialog box for editing (creation) of data of a department's employee
-![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(30).png)
-
 #### A group's curriculum 
 ![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(31).png)
 
@@ -99,29 +96,23 @@ This software was created for Sakhalin Humanitarian and Technological Institute 
 
 ![Dialog boxes for editing of data of students groups](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(35).png)
 
-#### Login form
-![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(36).png)
+#### Dialog boxes for editing of data of students
+![Dialog boxes for editing of data of students](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(36).png)
 
-#### Login form
-![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(37).png)
+![Dialog boxes for editing of data of students](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(37).png)
 
-#### Login form
-![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(38).png)
+![Dialog boxes for editing of data of students](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(38).png)
 
-#### Login form
-![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(39).png)
+![Dialog boxes for editing of data of students](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(39).png)
 
-#### Login form
-![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(40).png)
+![Dialog boxes for editing of data of students](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(40).png)
 
-#### Login form
-![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(41).png)
+#### Windows for editing of students assessments and demonstration of overall statistics of results
+![Windows for editing of students assessments and demonstration of overall statistics of results](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(41).png)
 
-#### Login form
-![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(42).png)
+![Windows for editing of students assessments and demonstration of overall statistics of results](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(42).png)
 
-#### Window for filling of  the student's marks (with the student performance statistics)
-![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(43).png)
+![Windows for editing of students assessments and demonstration of overall statistics of results](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(43).png)
 
-#### Database schema (MS SQL Server)
+# Database schema (partially) (MS SQL Server)
 ![Login form](https://github.com/PavelSobolev/FacultySystem/blob/master/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/(44).png)
