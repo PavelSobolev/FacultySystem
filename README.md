@@ -1,11 +1,11 @@
 # FacultySystem
-This software was created for Yuzhno-Sakhalinsk Institute of Economics, law and computer science (Russian Federation) and was in exploitation from 2006 till 2015.
+This software was created for Yuzhno-Sakhalinsk Institute of economics, law and computer science (Russian Federation) and was in exploitation from 2006 till 2015.
 
 [Certificate](https://github.com/PavelSobolev/cv/blob/master/InfoSystem.png)
 
 ### Short description of the information system
 
-##### This information network system was created for the aims of computerization of regulatory processes of the faculties of “Yuzhno-Sakhalinsk Institute of Economics, law and computer science”. System consists of network relational database (MS SQL Server) and the application which implements following functions:
+##### This information network system was created for the aims of computerization of regulatory processes of the faculties of “Yuzhno-Sakhalinsk Institute of economics, law and computer science”. System consists of network relational database (MS SQL Server) and the application which implements following functions:
 
 1) user authorization and providing users with appropriate level of access based on the user’s functional duties and responsibilities,
 2) providing operations on the principal data objects of the educational process of the faculties,
