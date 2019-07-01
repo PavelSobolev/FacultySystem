@@ -7,6 +7,13 @@ This software was created for Yuzhno-Sakhalinsk Institute of economics, law and 
 
 ### Short description of the information system
 
+#### Technologies 
+1. MS .NET Framework 
+2. Visual C#
+3. MS SQL Derver, T-SQL
+4. MS Visual Studio
+5. Additional third party APIs
+
 ##### This information network system was created for the aims of computerization of regulatory processes of the faculties of “Yuzhno-Sakhalinsk Institute of economics, law and computer science”. System consists of network relational database (MS SQL Server) and the application which implements following functions:
 
 1) user authorization and providing users with appropriate level of access based on the user’s functional duties and responsibilities,
