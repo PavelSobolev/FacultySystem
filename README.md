@@ -8,9 +8,9 @@ This software was created for Yuzhno-Sakhalinsk Institute of economics, law and 
 ### Short description of the information system
 
 #### Technologies 
-1. MS .NET Framework 
+1. MS .NET Framework, ADO.NET, MS Office .NET Connectivity API
 2. Visual C#
-3. MS SQL Derver, T-SQL
+3. MS SQL Server, T-SQL
 4. MS Visual Studio
 5. Additional third party APIs
 
