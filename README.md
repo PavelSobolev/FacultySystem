@@ -17,7 +17,7 @@ This software was created for Yuzhno-Sakhalinsk Institute of economics, law and 
 ##### This information network system was created for the aims of computerization of regulatory processes of the faculties of “Yuzhno-Sakhalinsk Institute of economics, law and computer science”. System consists of network relational database (MS SQL Server) and the application which implements following functions:
 
 1) user authorization and providing users with appropriate level of access based on the user’s functional duties and responsibilities,
-2) providing operations on the principal data objects of the educational process of the faculties,
+2) providing operations on the main data objects of the educational process of the faculties,
 3) providing operations on the main objects of data of personnel provision of the educational process of the faculty,
 4) providing operations on the main data objects on the curricula of provided specialties,
 5) provision of actions on distribution of educational activities across the stuff (according to the plan of educational administration),
