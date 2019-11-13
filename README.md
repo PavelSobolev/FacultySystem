@@ -31,15 +31,15 @@ This software was created for Yuzhno-Sakhalinsk Institute of economics, law and 
 3) information on educational specialties and educational groups of the faculty;
 4) information about the schedule of the academic process of the faculty;
 5) information about the curricula of specialties;
-6) information on the distribution of the study load among the teaching staff;
+6) information on the distribution of the study workload among the teaching staff;
 7) information on academic performance for reporting periods.
+
 ###### The output data of the developed system:
 1) students' personal files in electronic form;
 2) the calendar distribution of the study load of study groups and teachers in the form of a schedule;
 3) summary reports of academic load;
 4) statements for the conducted tests, exams, coursework and examinations (and other forms of reporting);
 5) summary reports of academic performance by study groups.
-
 
 # Examples of the most important windows and dialog boxes
 
